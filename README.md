@@ -3,7 +3,7 @@
 A modern dashboard UI built with Next.js 16, Tailwind CSS, and responsive mobile navigation.
 This project is currently in development and showcases layout, UI components, and a custom mobile overlay menu.
 
-
+![Dashboard Screenshot](public/Screenshot 2025-12-11 173458.png)
 
 🛠️ Tech Stack
 
