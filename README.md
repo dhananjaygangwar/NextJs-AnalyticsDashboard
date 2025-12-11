@@ -5,7 +5,7 @@ This project is currently in development and showcases layout, UI components, an
 
 ![Dashboard Screenshot](public/screenshot.png)
 
-🛠️ Tech Stack
+
 
 Next.js 16 (App Router + Turbopack)
 
@@ -15,27 +15,5 @@ Tailwind CSS v4
 
 TypeScript
 
-⚙️ Getting Started
 
-Run the development server:
-
-npm install
-npm run dev
-
-
-Open http://localhost:3000
- in your browser.
-
-📂 Project Structure
-src/
- ├── app/
- │    ├── layout.tsx
- │    ├── page.tsx
- │    └── dashboard/
- ├── components/
- │    ├── Header.tsx
- │    ├── MobileNav.tsx
- │    └── Sidebar.tsx
- └── styles/
-      └── globals.css
 
