@@ -69,20 +69,13 @@ export default function MobileNav() {
             </Link>
 
             <Link
-              href="/reports"
+              href="/"
               className={linkClass}
               onClick={() => setOpen(false)}
             >
               Reports
             </Link>
-
-            <Link
-              href="/settings"
-              className={linkClass}
-              onClick={() => setOpen(false)}
-            >
-              Settings
-            </Link>
+           
           </nav>
         </div>
       )}
