@@ -1,54 +1,24 @@
 @import "tailwindcss";
 
-:root {
-  --bg: #f4f6fb;
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+
+
+:root{
+  --bg: #f8fafc;
   --card: #ffffff;
   --text: #0f172a;
   --muted: #6b7280;
-  --border: #e2e8f0;
-  --accent: #4f46e5;
 }
-
-html.dark {
-  --bg: #050b18;
-  --card: #0f172a;
+html.dark{
+  --bg: #071028;
+  --card: #071b2a;
   --text: #e6eef8;
   --muted: #9fb4c9;
-  --border: #1e293b;
-  --accent: #818cf8;
 }
-
-body {
-  background-color: var(--bg);
-  background-image:
-    radial-gradient(circle at 20% 20%, rgba(79, 70, 229, 0.08), transparent 28%),
-    radial-gradient(circle at 80% 0%, rgba(14, 165, 233, 0.08), transparent 30%),
-    linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(244, 246, 251, 0.6));
-  color: var(--text);
-  @apply antialiased text-sm sm:text-base;
-}
-
-* {
-  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease;
-}
-
-.card-surface {
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.9), rgba(245, 247, 252, 0.9));
-  border: 1px solid var(--border);
-  box-shadow:
-    0 10px 30px rgba(15, 23, 42, 0.06),
-    0 1px 2px rgba(15, 23, 42, 0.04);
-  border-radius: 16px;
-}
-
-html.dark .card-surface {
-  background: linear-gradient(145deg, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.75));
-  box-shadow:
-    0 10px 30px rgba(0, 0, 0, 0.4),
-    0 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-::selection {
-  background: rgba(79, 70, 229, 0.14);
-  color: var(--text);
+body{
+  background-color:var(--bg);
+  color:var(--text);
+  @apply antialiased;
 }
